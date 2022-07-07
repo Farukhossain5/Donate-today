@@ -1,15 +1,20 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body{
-    font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
-    margin-top: 150px;
-    margin-left: 150px;
-    color: rgb(241, 111, 137);
-   font-size: x-large;
+}
+.donate-know{
+ color: bisque;
+   font-size: 30px;
+   text-align: center;
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
-    height: 100%;
+    width: 100%;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 0.9;
 }
 .donate-button{
     text-decoration: none;
@@ -18,4 +23,24 @@ font-family: 'Roboto', sans-serif;
     padding: 10px 20px;
     border-radius: 7px;
     margin: 250px;
+    border-spacing: 50px;
 }
+.h1{
+  text-align: center;
+}
+.donate-today{
+    display:flex;
+    
+}
+.flex-box{
+    display: flex;
+   flex-wrap: nowrap;
+  }
+  .flex-box > div{
+    background-color: rgb(244, 241, 238);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
