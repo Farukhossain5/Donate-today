@@ -1,46 +1,37 @@
-*{
-  padding: 0px;
-  margin: 0px;
-}
 body{
+    font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
-.donate-know{
- color: bisque;
-   font-size: 30px;
-   text-align: center;
-    background-image: url(images/donation13.jpg);
+.bg-image{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./images/donation9.jpg);
     background-repeat: no-repeat;
-    width: 100%;
     background-attachment: fixed;
+    height: 100%;
     background-size: cover;
-    opacity: 0.9;
 }
-.donate-button{
+.help{
+    color: rgb(240, 229, 229);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+}
+.paragraph{
+    color: aliceblue;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.donate-know{
+    width: 100px;
+    height: 80px;
+    border: 1px solid gray;
+    background-color: tomato;
     text-decoration: none;
     color: white;
-  background-color: tomato;
-    padding: 10px 20px;
-    border-radius: 7px;
-    margin: 250px;
-    border-spacing: 50px;
 }
-.h1{
-  text-align: center;
+.donate-know{
+    text-decoration: none;
+    background-color: tomato;
+    border: 1px solid gray;
+    padding: 10px 40px;
 }
-.donate-today{
-    display:flex;
-    
-}
-.flex-box{
-    display: flex;
-   flex-wrap: nowrap;
-  }
-  .flex-box > div{
-    background-color: rgb(244, 241, 238);
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
