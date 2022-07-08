@@ -22,16 +22,10 @@ font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
 }
 .donate-know{
-    width: 100px;
-    height: 80px;
-    border: 1px solid gray;
-    background-color: tomato;
     text-decoration: none;
     color: white;
-}
-.donate-know{
-    text-decoration: none;
     background-color: tomato;
     border: 1px solid gray;
     padding: 10px 40px;
+    border-radius: 5px;
 }
