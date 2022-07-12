@@ -105,3 +105,27 @@ padding: 10px;
 .sec3-para{
     text-align: left;
 }
+.sec3{
+    text-align: center;
+}
+.contacs{
+justify-content: center;
+align-items: center;
+ width: 500px;
+ height: 130px;
+ background-color: bisque;
+ margin: 50px;
+ margin-left: 31%;
+}
+.subscribe{
+    margin-top: 60px;
+    background-color: red;
+    margin: 0;
+    border:0;
+    margin-left: 0px;
+}
+.email{
+    margin-top: 60px;
+    border: 0px;
+    margin-left: 0px;
+}
