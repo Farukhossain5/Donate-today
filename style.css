@@ -129,3 +129,12 @@ align-items: center;
     border: 0px;
     margin-left: 0px;
 }
+.last-fotter{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+.footer-area{
+    background-repeat: no-repeat;
+    background-size: auto;
+}
